@@ -29,3 +29,6 @@ console.log(flatten([ [ [ [1], 2], 3], [4], [], [[5]]]));
 
 console.log(flatten(['abc', ['def', ['ghi', ['jkl']]]]));
 // -> ['abc', 'def', 'ghi', 'jkl']
+
+// Array.prototype.flat
+console.log([ [ [ [1], 2], 3], [4], [], [[5]]].flat(Infinity));
